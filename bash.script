@@ -1,0 +1,9 @@
+vi fins_users.txt
+=====================
+В текстовому редакторі:
+#!/bin/bash
+echo "Users:"
+grep '/bin/bash$' /etc/passwd | cut -d: -f1
+=====================
+chmod +x find_bash_users.sh
+./find_users.txt
