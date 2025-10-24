@@ -5,5 +5,5 @@ vi fins_users.txt
 echo "Users:"
 grep '/bin/bash$' /etc/passwd | cut -d: -f1
 =====================
-chmod +x find_bash_users.sh
+chmod +x find_users.txt
 ./find_users.txt
